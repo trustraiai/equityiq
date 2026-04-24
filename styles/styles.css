@@ -1,0 +1,110 @@
+/* -------------------------
+   BACKGROUND
+------------------------- */
+.main {
+    background-color: #f1f5f9;
+}
+
+/* -------------------------
+   CONTAINER
+------------------------- */
+.block-container {
+    max-width: 900px;
+    padding-top: 2rem;
+}
+
+/* -------------------------
+   HEADER
+------------------------- */
+.center-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.center-sub {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+/* -------------------------
+   CARD
+------------------------- */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+/* -------------------------
+   INPUT (FIXED - NO GHOST BOX)
+------------------------- */
+div[data-baseweb="input"] {
+    background-color: transparent !important;
+}
+
+div[data-baseweb="input"] input {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    border-radius: 8px !important;
+    border: 1px solid #cbd5e1 !important;
+    padding: 10px !important;
+    font-size: 14px;
+}
+
+/* REMOVE EXTRA EMPTY BLOCK */
+div[data-baseweb="input"]>div {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+/* -------------------------
+   BUTTON
+------------------------- */
+.stButton>button {
+    background-color: #14b8a6;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+}
+
+.stButton>button:hover {
+    background-color: #0d9488;
+}
+
+/* -------------------------
+   SUCCESS BOX
+------------------------- */
+.success-box {
+    background-color: #dcfce7;
+    padding: 12px;
+    border-radius: 8px;
+    color: #166534;
+    margin-top: 10px;
+}
+
+/* -------------------------
+   SECTION HEADERS
+------------------------- */
+.section-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* -------------------------
+   REMOVE STREAMLIT SPACING ISSUES
+------------------------- */
+.stTextInput {
+    margin-bottom: 0 !important;
+}
+
+.stButton {
+    margin-top: 0 !important;
+}
